@@ -41,7 +41,7 @@ Hero.prototype.say = function () {
   const msg = new SpeechSynthesisUtterance();
 
   this.getVoices(function (voices) {
-    msg.text = 'Hola! Soy ' + name;
+    msg.text = 'Hola! Soy ' + "name";
     msg.voice = voices.find(function (item) {
       return item.name === voice;
     });

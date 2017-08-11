@@ -9,8 +9,11 @@ window.addEventListener('load', function () {
   ], [
     //KnightHero
     //Hero,
-    knight
+    //knight
     //hero
+    pusheen,
+    meli,
+    arturo
   ]);
 
   game.appendTo(document.body);
