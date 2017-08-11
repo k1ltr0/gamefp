@@ -15,7 +15,7 @@ const speaker = (state) => {
     say: () => {
       const msg = new SpeechSynthesisUtterance();
       getVoices(voices => {
-        msg.text = 'Hola! Soy ' + state.name;
+        msg.text = 'Hi! I am ' + state.name;
         msg.voice = voices.find(item => item.name === state.voice);
         speechSynthesis.speak(msg);
       });
