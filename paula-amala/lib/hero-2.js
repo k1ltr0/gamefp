@@ -96,13 +96,16 @@ const hero = (map, x, y) => {
     speed: 256
   };
 
-  return Object.assign({}, speaker(state), mover(state), {
+  var fin = Object.assign({}, speaker(state), mover(state), {
     width: () => state.width,
     height: () => state.height,
     x: () => state.x,
     y: () => state.y,
     image: Loader.getImage('hero'),
   });
+
+  console.log(fin);
+  return fin;
 };
 
 
