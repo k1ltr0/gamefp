@@ -1,5 +1,5 @@
-const smiley = (map, x, y) => hero(map, x, y);
-smiley.image = 'characters/smiley/smiley.png';
+const Smiley = (map, x, y) => hero(map, x, y);
+Smiley.image = 'characters/smiley/smiley.png';
 
 
 // function KnightHero(map, x, y) {
