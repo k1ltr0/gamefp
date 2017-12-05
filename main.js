@@ -13,8 +13,8 @@ window.addEventListener('load', function () {
     //KnightHero
     //Hero,
     //knight,
-    horseman,
-    //pixgeta
+    //horseman,
+    pixgeta
     //hero
   ]);
 
