@@ -9,12 +9,12 @@ Inspirado en:
 
 ## Cómo añadir personajes
 
-1. Crear carpeta en characters
-2. Crear achivo js en nueva carpeta
-3. Implementar factory que use `hero()` para crear un nuevo objeto
-4. Añadir imagen del personaje (png 64x64)
-5. Añadir el script en `index.html`
-6. Cargar el personaje en `main.js`
+1. Crear carpeta en characters +
+2. Crear achivo js en nueva carpeta +
+3. Implementar factory que use `hero()` para crear un nuevo objeto +
+4. Añadir imagen del personaje (png 64x64) +
+5. Añadir el script en `index.html` +
+6. Cargar el personaje en `main.js` +
 
 ### Pistas
 
