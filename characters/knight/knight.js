@@ -1,4 +1,4 @@
-const knight = (map, x, y) => hero(map, x, y);
+const knight = (map, x, y) => hero(map, x, y); // es una funcion 
 knight.image = 'characters/knight/knight.png';
 
 

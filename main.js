@@ -9,7 +9,7 @@ window.addEventListener('load', function () {
   ], [
     //KnightHero
     //Hero,
-    knight,
+    knight, // es un factory
     harry
     //hero
   ]);
