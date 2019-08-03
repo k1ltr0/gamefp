@@ -2,6 +2,7 @@ const knight = (map, x, y) => hero(map, x, y);
 knight.image = 'characters/knight/knight.png';
 
 
+
 // function KnightHero(map, x, y) {
 //   Hero.call(this, map, x, y);
 // }

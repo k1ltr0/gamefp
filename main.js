@@ -5,11 +5,16 @@ window.addEventListener('load', function () {
 
   var game = new Game([
     new ExampleMap1(),
-    new ExampleMap2()
+    new ExampleMap2(),
+    new ExampleMap3(),
+    new ExampleMap4(),
+    new ExampleMap5()
   ], [
     //KnightHero
     //Hero,
-    knight
+    //knight,
+    horseman,//Es un factory no un constructor
+    //pixgeta
     //hero
   ]);
 
